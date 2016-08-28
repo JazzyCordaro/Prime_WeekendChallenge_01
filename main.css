@@ -11,7 +11,7 @@ input[type=text] {
     padding: 8px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    
+
 
 }
 
@@ -20,5 +20,12 @@ button {
   font-weight: bold;
   font-size: 150%;
   text-transform: uppercase;
-  margin-left: 95px
+  margin-left: auto;
+}
+
+
+div {
+  font-family: arial;
+  body: gray;
+  text-align: right;
 }
