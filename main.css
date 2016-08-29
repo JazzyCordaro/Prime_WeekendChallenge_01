@@ -1,31 +1,40 @@
-body > h1 {
-color: gray;
-text-align: center;
-border-style: double;
-
+body> h1 {
+    color: black;
+    text-align: center;
+    border-style: double;
 }
-
-
+body {
+    background: #abbaab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #abbaab, #ffffff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #abbaab, #ffffff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 input[type=text] {
     width: 20%;
     padding: 8px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-
-
 }
-
 button {
-  color: ;
-  font-weight: bold;
-  font-size: 150%;
-  text-transform: uppercase;
-  margin-left: auto;
+    color: black;
+    font-weight: bolder;
+    ;
+    font-family: helvetica;
+    font-size: 150%;
+    text-transform: uppercase;
+    ;
+    margin-left: auto;
 }
-
-
 div {
-  font-family: arial;
-  body: gray;
-  text-align: right;
+    font-family: arial;
+    body: white;
+    text-align: right;
+}
+.total {
+    color: white;
+    border: dotted;
+    margin-left: 985px;
+    padding-right: 50px;
 }
